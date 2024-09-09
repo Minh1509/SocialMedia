@@ -1,0 +1,26 @@
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-content {
+  display: flex;
+  align-items: center;
+}
+
+.right-content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.button {
+  text-transform: none;
+}
+
+@media (max-width: 600px) {
+  .right-content {
+    gap: 5px;
+  }
+}

@@ -1,0 +1,68 @@
+/* CSS cho phần tách các ảnh */
+.photo-container {
+    margin-bottom: 20px;
+    margin-left:20px;
+    }
+    
+    .photo {
+    width: 200px;
+    height: 200px;
+    }
+    
+    .posted-time {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    }
+    
+    /* CSS cho phần tách các bình luận */
+    .comments-header {
+    font-weight: bold;
+    margin-top: 10px;
+    }
+    
+    .comment {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    }
+    
+    .user-comment {
+    background-color: #d9edf7;
+    }
+    
+    .other-comment {
+    background-color: #fcf8e3;
+    }
+    
+    .user {
+    font-weight: bold;
+    }
+    
+    .comment-time {
+    margin-top: 10px;
+    }
+
+    .comment-input-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      margin-top:20px;
+      margin-bottom: 20px;
+    }
+    
+    .comment-textfield {
+      border-radius: 10px;
+      width: 200px;
+    /* Điều chỉnh kích thước của textfield tại đây */
+      
+    }
+    
+    .add-comment-button {
+   
+      width: 120px; 
+      height: 55px;/* Điều chỉnh kích thước của nút "Add Comment" tại đây */
+      margin-top: 5px; /* Tạo khoảng cách giữa textfield và nút "Add Comment" */
+      border-radius: 10px;
+    }
